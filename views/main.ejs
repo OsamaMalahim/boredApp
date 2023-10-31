@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bored app</title>
+    
+</head>
+<body>
+    <% if(locals.data) { %>
+    <h1><%=data.activity %></h1>
+    <h1><%=data.type %></h1>
+    <h1><%=data.participants %></h1>
+    <h1><%=data.duration %></h1>
+
+    <%  }%>
+    <h1><%=locals.error%></h1>
+</body>
+</html>
